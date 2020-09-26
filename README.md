@@ -1,4 +1,9 @@
 # mergeCovid19ExposureLogs
 
 このコマンドはAndroidデバイスでGoogleカウントから接触リクエストのログをexportして得られるall-exposure-checks.jsonファイルをマージして、一個のExcelファイルに出力します。その際にタイムスタンプでソートします。
+
 特に難しいことはしていません。
+
+dataフォルダの下にはダミーのall-exposure-checks.jsonというファイルを置いていますが、リアルのデータに置き換えて使ってください。何日分かのログをall-exposure-checks_0.jsonみたいな別名で保存していけば、実行時に全部マージします。
+
+データファイルを用意したら、pandasとjsonを追加でインストールした環境でpython3で実行すればmerged.xlsxというファイルが生成されます。
