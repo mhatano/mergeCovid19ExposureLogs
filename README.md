@@ -1,0 +1,4 @@
+# mergeCovid19ExposureLogs
+
+このコマンドはAndroidデバイスでGoogleカウントから接触リクエストのログをexportして得られるall-exposure-checks.jsonファイルをマージして、一個のExcelファイルに出力します。その際にタイムスタンプでソートします。
+特に難しいことはしていません。
